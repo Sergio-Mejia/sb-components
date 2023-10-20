@@ -1,7 +1,14 @@
 import "./MyLabel.css";
 
 interface Props {
+  /**
+   * Text to display
+   */
   label: string;
+
+  /**
+   * Label Size
+   */
   size?: "normal" | "h1" | "h2" | "h3";
 }
 
